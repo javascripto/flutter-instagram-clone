@@ -11,6 +11,9 @@ class InstagramApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: HomePage(),
+      theme: ThemeData(
+        primarySwatch: Colors.grey,
+      ),
     );
   }
 }

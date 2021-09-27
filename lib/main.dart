@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_instagram/screens/home.dart';
+import 'package:flutter_instagram/homepage.dart';
 
 void main() {
   runApp(InstagramApp());

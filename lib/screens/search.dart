@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-class UserHome extends StatelessWidget {
+class UserSearch extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Text('HOME'),
+        child: Text('SEARCH'),
       ),
     );
   }

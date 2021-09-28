@@ -7,9 +7,12 @@ class UserHome extends StatelessWidget {
     'dicasdodev',
     'leolins',
     'carioca',
-    'codar',
+    'codar.me',
     'gabrielpato',
     'eutiringaoficial',
+    'akitaonrails',
+    'gadgetstrip',
+    'thereptilezoo',
   ];
 
   @override

@@ -12,7 +12,7 @@ class UserAccount extends StatelessWidget {
           elevation: 0,
           backgroundColor: Colors.transparent,
           title: Text(
-            'createdbykoko',
+            'flutter',
             style: TextStyle(
               fontWeight: FontWeight.bold,
               fontSize: 25,
@@ -26,8 +26,7 @@ class UserAccount extends StatelessWidget {
             ),
           ],
         ),
-        body: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
+        body: ListView(
           children: [
             Padding(
               padding: const EdgeInsets.only(left: 20.0, top: 20),
@@ -85,17 +84,17 @@ class UserAccount extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    'koko',
+                    'flutter',
                     style: TextStyle(fontWeight: FontWeight.bold),
                   ),
                   Padding(
                     padding: const EdgeInsets.symmetric(vertical: 2.0),
                     child: Text(
-                      'i create apps & games',
+                      'i\'m studying flutter',
                     ),
                   ),
                   Text(
-                    'm.youtube.com/mitchkoko/',
+                    'm.youtube.com/flutterdev',
                     style: TextStyle(color: Colors.blue),
                   ),
                 ],
@@ -180,14 +179,19 @@ class UserAccount extends StatelessWidget {
                 ),
               ],
             ),
-            Expanded(
-              child: TabBarView(children: [
-                AccountTab(color: Colors.blue[100]),
-                AccountTab(color: Colors.pink[100]),
-                AccountTab(color: Colors.deepPurple[100]),
-                AccountTab(color: Colors.green[100]),
-              ]),
-            )
+            Container(
+              child: SizedBox(
+                height: 300,
+                child: TabBarView(
+                  children: [
+                    AccountTab(color: Colors.blue[100]),
+                    AccountTab(color: Colors.pink[100]),
+                    AccountTab(color: Colors.deepPurple[100]),
+                    AccountTab(color: Colors.green[100]),
+                  ],
+                ),
+              ),
+            ),
           ],
         ),
       ),
